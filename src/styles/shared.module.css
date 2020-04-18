@@ -1,3 +1,32 @@
+.biglogo {
+  display: block;
+  margin: 100px auto 100px;
+  text-align: center;
+}
+
+.biglogo svg {
+  width: 250px;
+  max-width: 60vw;
+  margin-left: -15px;
+  display: inline-block;
+  transition: opacity 200ms ease;
+}
+
+.biglogo h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.biglogo p {
+  margin: 0;
+}
+
+.layout {
+  padding: 0 20px 0;
+  margin-bottom: 100px;
+}
+
 .layout img {
   margin: auto;
   max-width: 98%;
@@ -5,7 +34,28 @@
   height: auto;
 }
 
-.layout h1,
-.layout h2 {
+.layout h1 {
   text-align: center;
+  font-size: 2rem;
+  margin-bottom: 80px;
+}
+
+.layout h3 {
+  font-size: 1.25rem;
+}
+
+.sep {
+  width: 80vw;
+  max-width: 600px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.8);
+  margin: 0 auto 100px;
+}
+
+.withlove {
+  font-family: var(--font-mono);
+  color: var(--accents-3);
+}
+
+.love {
+  color: #ff0000;
 }

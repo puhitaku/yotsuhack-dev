@@ -1,6 +1,6 @@
 .links {
   display: block;
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: 500px;
   text-align: center;
 }
@@ -20,17 +20,23 @@
 .avatar {
   display: block;
   text-align: center;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .avatar img {
-  height: 120px;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 .name {
+  font-family: var(--font-mono);
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.name a {
-  color: inherit;
+.aka {
+  font-family: var(--font-mono);
+  font-style: italic;
+  display: inline-block;
+  margin: 0 0.3rem;
 }

@@ -1,13 +1,13 @@
 export const getBlogLink = (slug: string) => {
-  return `/blog/${slug}`
+  return `/works/${slug}`
 }
 
 export const getDateStr = date => {
-  return new Date(date).toLocaleString('en-US', {
-    month: 'long',
+  return new Intl.DateTimeFormat(undefined, {
+    month: '2-digit',
     day: '2-digit',
     year: 'numeric',
-  })
+  }).format(date)
 }
 
 export const postIsPublished = (post: any) => {
