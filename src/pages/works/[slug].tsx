@@ -151,6 +151,9 @@ const RenderPost = ({ post, redirect, preview }) => {
         </div>
       )}
       <div className={blogStyles.post}>
+        <a href="/">
+          <p>← Back</p>
+        </a>
         <h1>{post.Page || ''}</h1>
         {post.Authors.length > 0 && (
           <div className="authors">By: {post.Authors.join(' ')}</div>
