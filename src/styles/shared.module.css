@@ -27,6 +27,10 @@
   margin-bottom: 100px;
 }
 
+.layout {
+  margin-bottom: 50px;
+}
+
 .layout img {
   margin: auto;
   max-width: 98%;
@@ -58,4 +62,13 @@
 
 .love {
   color: #ff0000;
+}
+
+.thanks {
+  font-family: var(--font-mono);
+  text-align: center;
+  font-size: 0.5rem;
+  color: var(--accents-3);
+  line-height: 2;
+  margin-top: 30px;
 }

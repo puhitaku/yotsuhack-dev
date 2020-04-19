@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import sharedStyles from '../styles/shared.module.css'
 import blogStyles from '../styles/blog.module.css'
 import contactStyles from '../styles/contact.module.css'
@@ -141,6 +142,7 @@ export default ({ posts = [], preview }) => {
           })}
         </div>
       </div>
+      <Footer isIndex={true} />
     </>
   )
 }

@@ -1,9 +1,18 @@
-import ExtLink from './ext-link'
+import sharedStyles from '../styles/shared.module.css'
 
-export default () => (
+export default props => (
   <>
-    <footer>
-      <ExtLink href="https://github.com/ijjk/notion-blog">Source code</ExtLink>
+    <footer className={sharedStyles.withlove}>
+      <div>
+        <span>FROM A COMPUTER WITH </span>
+        <span className={sharedStyles.love}>♥</span>
+      </div>
+      {props.isIndex && (
+        <div className={sharedStyles.thanks}>
+          Special thanks to JJ Kasper for developing{' '}
+          <a href="https://notion-blog.now.sh/">My Notion Blog</a>.
+        </div>
+      )}
     </footer>
   </>
 )

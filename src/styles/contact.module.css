@@ -1,6 +1,6 @@
 .links {
   display: block;
-  margin: 2rem auto;
+  margin: 2rem auto -2rem;
   max-width: 500px;
   text-align: center;
 }
