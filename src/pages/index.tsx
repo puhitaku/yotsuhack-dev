@@ -76,7 +76,7 @@ export async function getStaticProps({ preview }) {
 export default ({ posts = [], preview }) => {
   return (
     <>
-      <Header titlePre="Home" />
+      <Header />
       <div className={sharedStyles.biglogo}>
         <Logo />
         <h1>YOTSUHACK</h1>
