@@ -127,6 +127,10 @@ export default ({ posts = [], preview }) => {
         <div className={contactStyles.name}>
           Sole Proprietorship / Freelance
         </div>
+        <div className={contactStyles.name}>&nbsp;</div>
+        <div className={contactStyles.name}>末田 卓巳 (puhitaku)</div>
+        <div className={contactStyles.name}>屋号: ヨツハック</div>
+        <div className={contactStyles.name}>個人事業主 / フリーランス</div>
         <div className={contactStyles.links}>
           {contacts.map(({ Comp, link, alt }) => {
             return (
