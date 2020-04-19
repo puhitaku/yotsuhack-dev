@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
-const ogImageUrl = 'https://yotsuhack.dev/og-image.png'
+const ogImageUrl = 'https://yotsuhack.dev/og-image2.png'
 
 export default ({ titlePre = '' }) => {
   const { pathname } = useRouter()
