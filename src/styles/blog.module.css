@@ -83,6 +83,10 @@
   margin-bottom: 0;
 }
 
+.post h1.title {
+  letter-spacing: unset;
+}
+
 .post h1 {
   margin-top: 0;
 }
