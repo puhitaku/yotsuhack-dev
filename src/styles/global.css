@@ -69,11 +69,43 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     var(--font-ja-gothic), sans-serif;
 
-  background-image: radial-gradient(#ddd 1px, transparent 1px),
-    radial-gradient(#ddd 1px, transparent 1px);
-  background-position: 0 0, 25px 25px;
+  background-image: linear-gradient(
+      -45deg,
+      #fff 0,
+      #fff 1.9rem,
+      transparent 1.9rem,
+      transparent 2.34rem,
+      #fff 2.34rem,
+      #fff
+    ),
+    linear-gradient(
+      45deg,
+      #fff 0,
+      #fff 1.9rem,
+      transparent 1.9rem,
+      transparent 2.34rem,
+      #fff 2.34rem,
+      #fff
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 0,
+      transparent 2.08rem,
+      #ddd 2.12rem,
+      transparent 2.16rem,
+      transparent
+    ),
+    linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 2.08rem,
+      #ddd 2.12rem,
+      transparent 2.16rem,
+      transparent
+    );
   background-attachment: fixed;
-  background-size: 50px 50px;
+  background-position: 0 0, 1.5rem 1.5rem, 0 0, 1.5rem 1.5rem;
+  background-size: 3rem 3rem;
 
   /* Hack */
   overflow-x: hidden;
