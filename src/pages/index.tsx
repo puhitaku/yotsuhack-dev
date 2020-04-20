@@ -91,19 +91,17 @@ export default ({ posts = [], preview }) => {
         {posts.map(post => {
           return (
             <div className={blogStyles.postPreview} key={post.Slug}>
-              <h3>
-                <span className={blogStyles.postedDate}>
-                  {getDateStr(post.Date)}
-                </span>
-                <Link href="/works/[slug]" as={getBlogLink(post.Slug)}>
-                  <div className={blogStyles.titleContainer}>
-                    {!post.Published && (
-                      <span className={blogStyles.draftBadge}>Draft</span>
-                    )}
-                    <a>{post.Page}</a>
-                  </div>
-                </Link>
-              </h3>
+              <Link href="/works/[slug]" as={getBlogLink(post.Slug)}>
+                <div className={blogStyles.dateAndTitle}>
+                  <span className={blogStyles.postedDate}>
+                    {getDateStr(post.Date)}
+                  </span>
+                  {!post.Published && (
+                    <span className={blogStyles.draftBadge}>Draft</span>
+                  )}
+                  <a>{post.Page}</a>
+                </div>
+              </Link>
               <p>
                 {(!post.preview || post.preview.length === 0) &&
                   'No preview available'}

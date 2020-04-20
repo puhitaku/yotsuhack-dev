@@ -43,13 +43,6 @@
   cursor: pointer;
 }
 
-.titleContainer {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-start;
-  font-family: var(--font-mono);
-}
-
 .draftBadge {
   border-radius: 16px;
   background-color: black;
@@ -76,7 +69,11 @@
 
 .postPreview h3 {
   display: inline;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+.postPreview h3::before {
+  content: '';
 }
 
 .post h1 {
@@ -129,6 +126,12 @@
 
 .postedDate {
   margin-right: 1rem;
+}
+
+.dateAndTitle {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--font-mono);
 }
 
 .post {
