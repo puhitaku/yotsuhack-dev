@@ -48,8 +48,8 @@
   align-items: center;
   justify-content: flex-start;
   font-family: var(--font-mono);
-  font-weight: 600;
 }
+
 .draftBadge {
   border-radius: 16px;
   background-color: black;
