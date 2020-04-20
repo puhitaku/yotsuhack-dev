@@ -352,15 +352,14 @@ h1 {
 
 h2 {
   font-family: var(--font-mono);
-  font-weight: 300;
+  font-weight: 700;
   font-size: 1.25rem;
-  letter-spacing: -0.02rem;
   color: var(--accents-2);
 }
 
 h3 {
   font-family: var(--font-mono);
-  font-weight: 300;
+  font-weight: 700;
   font-size: 1rem;
   padding-left: 0.5rem;
   letter-spacing: -0.02rem;
